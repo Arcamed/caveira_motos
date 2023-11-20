@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+section h2,
+section h3,
+form button
+{
+    font-family: 'Righteous', sans-serif;
+}
+
+body,
+input,
+textarea
+{
+    font-family: 'Fjalla One', sans-serif;
+font-family: 'Righteous', sans-serif;
+}
+
+section .container
+{
+    align-items: flex-start;
+}
+
+header /*cabeçalho*/
+{
+    padding: 16px 0;
+    background-color: black;
+    color: rgb(208, 221, 19);
+}
+
+header ul li /*link*/
+{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header img /*imagem cabeçalho*/
+{
+    height: 50px;
+}
+
+.container
+{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+header .container,
+header .list,
+#about,
+#contact-metods,
+h2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+header nav li a
+{
+    text-decoration: none;
+}
+
+#about img
+{
+    height: 360px;
+    margin: 9px;
+}
+
+#bout
+{
+    align-items: flex-start;
+}
+
+section video
+{
+    margin: 10px 300px 0;
+}
+form input,
+form textarea,
+form button
+{
+    display: block;
+    width: 320px;
+    margin: 8px 15px;
+    padding: 8px;
+}
+form textarea
+{
+    resize: none;
+    height: 180px;
+}
+.social-links li
+{
+    display: inline;
+}
+
+.social-links img
+{
+    height: 30px;
+}
+.contact-methods h3
+{
+    margin: 0 100px;
+}
+
+#contact .container
+{
+    display: block;
+}
+.contact-methods
+{
+    justify-content: space-between;
+}
+
+form button
+{
+    background-color:black;
+    color: rgb(208, 221, 19);
+    border: none;
+    cursor: pointer;
+}
+.social-links
+{
+    text-decoration: none;
+}
+footer
+{
+    background-color: black;
+    color: rgb(208, 221, 19);
+    padding: 16px 0;
+}
+.social-links li a
+{
+    text-decoration: none;
+}
